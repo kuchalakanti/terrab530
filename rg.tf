@@ -3,3 +3,9 @@ resource "azurerm_resource_group" "name" {
     location = "eastus"
   
 }
+
+resource "azurerm_resource_group" "name1" {
+    name = "krishna-rg1"
+    location = "eastus"
+  
+}
